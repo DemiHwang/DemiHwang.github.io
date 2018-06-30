@@ -10,13 +10,14 @@ title: '블로그'
 email: damidami125@gmail.com
 description: 'Blog'
 baseurl: "" # the subpath of your site, e.g. /blog
-twitter_username: nil
+twitter_username: 'DemiHwang'
 github_username: 'DemiHwang'
 
 # Build settings
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter: rouge
 
 # Third-party services
 # just leave someone empty to disable it
@@ -25,3 +26,6 @@ disqus_shortname:
 
 # used this for post_excerpt at index_page
 excerpt_separator: <!--description-->
+
+plugins:
+  [ 'jekyll-twitter-plugin' ]
