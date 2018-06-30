@@ -248,17 +248,29 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-avatar
+  jekyll-coffeescript
+  jekyll-default-layout
   jekyll-feed
+  jekyll-gist
+  jekyll-github-metadata
   jekyll-include-cache
   jekyll-mentions
+  jekyll-optional-front-matter
+  jekyll-paginate
+  jekyll-readme-index
   jekyll-redirect-from
+  jekyll-relative-links
   jekyll-seo-tag
   jekyll-sitemap
+  jekyll-titles-from-headings
   jekyll-twitter-plugin
   jekyll-watch
   jemoji
   kramdown
   rouge
+
+RUBY VERSION
+   ruby 2.4.0p0
 
 BUNDLED WITH
    1.16.2
