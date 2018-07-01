@@ -45,4 +45,3 @@ plugins:
  - jemoji
  - jekyll-mentions
  - jekyll-include-cache
- - jekyll-twitter-plugin
